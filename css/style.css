@@ -1,0 +1,57 @@
+/* Defult external file  */
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Rubik:wght@300;400;600;700;900&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;  
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.main-menu ul li a {
+    color: #343434;
+    font-size: 14px;
+    font-weight: 600;
+    font-family:'Poppins', sans-serif;
+    padding:44px 0;
+    line-height: 1;
+    display: inline-block;
+
+}
+.hire-btn {
+    padding: 10px 58px;
+    border: 1px solid #505cfd;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 55px;
+}
+.header-area{
+    padding: 0 42px;
+}
+/* slider area */
+.slider-area img{
+    width: 100%;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
